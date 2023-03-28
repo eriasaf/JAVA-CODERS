@@ -21,6 +21,7 @@ public class Rectangle {
                 + perimeter);
     }
 }
+
 class Use_Rectangle {
 
     public static void main(String args[])
