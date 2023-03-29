@@ -1,30 +1,26 @@
 public class Square {
-    /* fields */ 
-    double length;	
-    double width;
+    // fields
+    double side;
 
-/* constructor */
-public Square(double length, double width) {
-    this.length = length;
-    this.width = width;
-}	 	 
+    // constructor
+    public Square(double side) {
+        this.side = side;
+    }	 	 
 
-    /* accessors */
-    public double getLength() { 
-    
-        return this.length;
+    // retrieves the side
+    public double getSide() { 
+        return this.side;
     }
 
-    public void setLength(double length){
-        this.length = length;
+    // sets the side
+    public void setSide(double side){
+        this.side = side;
     }
 
-    public double getWidth() { 
-        return this.width; 
-    }
-
-    public void setWidth(double length){
-        this.length = length;
+    // calculates area
+    public double area(double side){
+        double area = side * side;
+        return area;
     }
     
 }
